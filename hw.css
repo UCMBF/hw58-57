@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: #f0f7c3;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#welcome {
+    padding: 65px;
+    background:linear-gradient(#32bf45, #369ed6);
+    font-size: 30px;
+}
+
+.picture1 {
+    border-radius: 100%;
+    width: 150px;
+    border-color: blueviolet;
+    border-style: groove;
+    border-width: 8px;
+}
+
+#name {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#bio {
+    padding: 60px;
+    font-size: 15px;
+    max-width: 600px; 
+    text-align: center;
+    margin-left: 475px;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 15;
+}
+
+
+.link {
+    float: right;
+    color: purple;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.link:hover {
+    transform: scale(1.5);
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+
+
